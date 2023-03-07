@@ -14,9 +14,10 @@ btnEl.addEventListener(`click`, function () {
 
         squareEl.addEventListener(`click`, function () {
             squareEl.classList.toggle(`active`);
-        })
+        });
     }
-})
+    
+});
 
 function createSquare(squareNumber) {
     let newSquareEl = document.createElement(`div`);
@@ -26,4 +27,7 @@ function createSquare(squareNumber) {
     newSquareEl.textContent = squareNumber;
 
     return newSquareEl;
-}
+};
+
+
+   
